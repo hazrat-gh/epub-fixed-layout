@@ -1,0 +1,7 @@
+node_modules/
+output/
+input/
+fonts/
+.env
+.DS_Store
+.vscode/

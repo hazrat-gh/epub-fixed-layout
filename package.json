@@ -1,0 +1,32 @@
+{
+  "name": "epub-fixed-layout",
+  "version": "1.0.0",
+  "description": "Convert standard text-based EPUB files into predefined fixed-layout, image-based EPUBs formatted for E-Ink devices.",
+  "main": "src/cli.js",
+  "bin": {
+    "xepub": "./bin/xepub.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "epub",
+    "e-ink",
+    "converter",
+    "fixed-layout",
+    "kindle"
+  ],
+  "author": "Hazrat Ali <hazrat.dev@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "epub2": "^3.0.2",
+    "puppeteer": "^24.40.0",
+    "sharp": "^0.34.5",
+    "uuid": "^13.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hazrat-gh/epub-fixed-layout"
+  }
+}

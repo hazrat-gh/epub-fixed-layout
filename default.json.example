@@ -1,0 +1,7 @@
+{
+    "device": "Custom",
+    "fontSize": 30,
+    "googleFont": "Noto Serif Bengali",
+    "preset": "compact",
+    "padding": 20
+}
