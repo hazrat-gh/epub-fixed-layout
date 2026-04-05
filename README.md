@@ -1,5 +1,8 @@
 # xEPUB
 
+[![NPM Version](https://img.shields.io/npm/v/epub-fixed-layout.svg?style=flat-square)](https://www.npmjs.com/package/epub-fixed-layout)
+[![NPM Downloads](https://img.shields.io/npm/dt/epub-fixed-layout.svg?style=flat-square)](https://www.npmjs.com/package/epub-fixed-layout)
+
 Convert standard text-based EPUB files into predefined fixed-layout, image-based EPUBs formatted for E-Ink devices.
 
 ---
@@ -117,7 +120,7 @@ Now, simply typing `xepub mybook.epub` will automatically use all of these setti
 | `--device`, `-d` | Device preset (e.g. `kindle-paperwhite`, `xteink-x4`) | `custom` |
 | `--orientation` | Force orientation (`landscape` or `portrait`) | Device specific |
 | `--preset`, `-p` | Compression (`quality`, `balanced`, `compact`) | `compact` |
-| `--font`, `-f` | Path to custom `.ttf` font file | `fonts/Kalpurush.ttf` |
+| `--font`, `-f` | Path to custom `.ttf` font file | |
 | `--google-font` | Google Font name | `Noto Serif Bengali` |
 | `--font-size` | Logical font size in pixels | `30` |
 | `--line-height` | Line height multiplier | `1.6` |
